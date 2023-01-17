@@ -1,0 +1,134 @@
+
+
+/* heading */ 
+h1{
+    font-family: comic sans ms;
+    text-align: center;
+    background-color: #f4c2d3;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    font-size: 3em;
+    margin: auto;
+}
+.p2 {
+    font-family: comic sans ms;
+    text-align: center;
+    background-color: #f4c2d3;
+    font-size: 30px;
+    margin: 5px;
+    padding: 10px;
+}
+.p2 h1{
+    font-family: comic sans ms;
+    text-align: center;
+    background-color: #f4c2d3;
+    padding-top: 2%;
+    padding-bottom: 1px;
+    font-size: 3em;
+    margin: auto;
+    
+
+}
+/*body*/
+.paragraphs {
+    background-color: #D0F4DE;
+    font-family: comic sans ms;
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 2s;
+    
+    
+}
+.content {
+    display: flex;
+
+
+}
+.mostrar {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+.paragraphs p {
+    font-size: 3em;
+    text-align: center;
+    margin-top: 0px;
+}
+span {
+    font-weight: bold;
+    font-size: 70px;
+
+}
+.text {
+    margin: 20px;
+    
+}
+.content p {
+    margin-top: 80px;
+}
+
+
+
+/* button */ 
+button {
+    font-family: comic sans ms;
+    border: 1px;
+    background-color: #FCF6BD;
+    width: 200px;
+    height: 80px;
+    font-size: 30px;
+    border-radius: 25px;
+ justify-content: center;
+}
+
+.back:hover::before {
+
+    content: "<";
+
+}
+
+.back:hover::after {
+    content: none;
+}
+
+button:hover::after {
+    font-family: comic sans ms;
+    border: 1px;
+    width: 200px;
+    height: 85px;
+    font-size: 30px;
+    font-weight: bold;
+    content: ">";
+
+}
+button:hover {
+    font-family: comic sans ms;
+    border: 1px;
+    background-color: #fbf2a2;
+    width: 200px;
+    height: 85px;
+    font-size: 30px;
+
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+.heart {
+ display: flex;
+ justify-content:center;
+ margin: 10px;
+}
+
+.final {
+    display:flex;
+    grid: row 3;
+    
+}
+.final2 {
+    display: flex;
+    justify-content:center;
+    padding-top: 10px;
+}
+

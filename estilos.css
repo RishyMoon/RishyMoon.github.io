@@ -1,0 +1,143 @@
+.banner {
+    color: #000000;
+    font-size: 4em;
+    text-align: center;
+    background-image: url(banner.png);
+    padding: 3px;
+    background-size: 1300px;
+    margin-top: unset;
+    margin-bottom: 2px;
+    font-weight: bold;
+}
+
+.container {
+    font-family: comic sans ms, open sans, sans-serif, arial;
+    width: 100%;
+}
+
+.mylove {
+    color: #000000;
+    text-align: center;
+    font-size: 30px;
+    padding-right: 20px;
+}
+.frase {
+    display: flex;
+    background-color: #f4c2d3;
+    align-items: center;
+}
+
+.frase .logo {
+    padding-right: 5px;
+}
+
+.micelanius {
+
+    background-color: #FCF6BD;
+    justify-content: space-around;
+    display: flex;
+    margin: 0px;
+    padding-right: 7px;
+    padding-top: 10px;
+    border-radius: 20px;
+    padding-bottom: 10px;
+    
+}
+
+.micelanius li {
+    margin: 7px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 20px;
+    text-align: center;
+    text-align: top;
+    
+}
+
+.micelanius a {
+    text-decoration: none;
+    font-size: larger;
+    font-family: comic sans ms;
+    color: #000000;
+    
+}
+.micelanius a:hover {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.inicio {
+    list-style: url(st20.png);
+    float:left;
+}
+
+.imagenes {
+    list-style: url(st6.png);
+    float: center;
+
+}
+
+.otros {
+    list-style: url(st15.png);
+    
+}
+
+.container1 {
+    display: flex;
+}
+h2 {
+    color: #000000;
+}
+li {
+    color: #000000;
+    list-style: disc;
+}
+.container1 h2 {
+    text-align: center;
+    font-size: 40px;
+}
+.cse {
+    background-color: #D0F4DE;
+    padding: 10px;
+}
+
+.cqlg {
+    background-color: #A9DEF9;
+    padding: 10px;
+}
+.herpic {
+    width: 600px;
+    height: 300px;
+    padding: 20px;
+    background-color: #E4C1F9;
+    
+}
+
+.pic {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.pic herpic {
+    width: 100%;
+    height: auto;
+}
+
+.container1 li {
+    font-size: 25px;
+}
+@media screen and (max-width: 1132px) {
+    .container1 {
+        display: unset;
+    }
+
+    .cse {
+        margin-right: 0px;
+    }
+
+    .cqlg {
+        margin-right: 0;
+    }
+
+}
